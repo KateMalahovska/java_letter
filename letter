@@ -1,0 +1,17 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Введите букву: ");
+        Scanner in = new Scanner(System.in);
+        String x = in.nextLine();
+        in.close();
+        char y = x.charAt(0);
+        if (y>='А'&& y<='ё'){
+            System.out.println("Это буква русского алфавита.");
+        } else if (y == 'Ё'){
+            System.out.println("Это буква русского алфавита.");
+        }else{System.out.println("Введенный символ не буква русского алфавита");
+        };
+            }
+        }
